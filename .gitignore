@@ -1,0 +1,9 @@
+# Ignore Mac/Linux system files
+.DS_Store
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore environment variables and API keys
+.env
