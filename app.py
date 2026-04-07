@@ -9,7 +9,7 @@ from google.genai import types
 
 # Initialize the AI Client
 try:
-    client = genai.Client(api_key="AIzaSyCyN9eOjyw-p7pgfIAsdgSsCZUFFuamMto")
+    client = genai.Client()
 except Exception as e:
     st.error("⚠️ Could not initialize the Gemini Client. Ensure your GEMINI_API_KEY environment variable is set.")
     st.stop()
